@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #d6c8e8;
 }
 
 header {
@@ -10,6 +11,7 @@ header {
     background: white;
     /* PROBLEM 1: Make the header stick to the top as you scroll */
     position: fixed;
+    background-color: #d6c8e8;
 }
 
 .content {
@@ -81,21 +83,28 @@ header {
 /* PROBLEM 7: Improve the typography and colors of this page! */
 
 #title {
-    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
 }
 
 h1 {
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
 }
 
 h2 {
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
 }
 
 h3 {
-
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
 }
 
 p {
-
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
 }
