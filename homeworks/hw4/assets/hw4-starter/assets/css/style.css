@@ -9,13 +9,13 @@ header {
     padding-bottom: 20px;
     background: white;
     /* PROBLEM 1: Make the header stick to the top as you scroll */
-
+    position: fixed;
 }
 
 .content {
     width: 800px;
     /* PROBLEM 2: Align the page content to the center of the screen */
-
+    margin: 0 auto;
 }
 
 #image-banner {
@@ -42,7 +42,7 @@ header {
     overflow: hidden;
     margin-right: 40px;
     /* PROBLEM 3: Give .image-card the appropriate position type */
-
+    position: relative;
 }
 
 .image-card:last-child {
@@ -56,24 +56,24 @@ header {
 .image-card-color-overlay {
     position: absolute;
     /* PROBLEM 4: Move the color overlay to cover the image properly */
-    top: 50px;
-    left: 200px;
+    top: 0px; /* changed from 50px */
+    left: 0px; /* changed from 200px */
     /* PROBLEM 5: What should the opacity be when there is no hover? */
-    opacity: 0.7;
+    opacity: 0;
     transition: 0.3s;
     background-color: navy;
 }
 
 .image-card:hover .image-card-color-overlay {
     /* PROBLEM 5: Pick an opacity for the blue hover effect */
-    opacity: 0.7;
+    opacity: 0.5;
 }
 
 .image-card-text {
     /* PROBLEM 6: Similar to .image-card-cover-overlay, position the card text */
-
-
-
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
     color: white;
 }
 
@@ -81,7 +81,7 @@ header {
 /* PROBLEM 7: Improve the typography and colors of this page! */
 
 #title {
-
+    
 }
 
 h1 {
