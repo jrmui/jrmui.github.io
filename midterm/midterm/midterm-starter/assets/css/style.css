@@ -1,0 +1,220 @@
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    background-image: url('../images/background.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav {
+    background-color: #444;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Main content styles */
+.container {
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.main {
+    float: left;
+    width: 70%;
+}
+
+.sidebar {
+    float: right;
+    width: 30%;
+    background: #ccc;
+    padding: 20px;
+}
+
+/* CSS for centering the image */
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+/* CSS for horizontal bar */
+hr {
+    border: none; /* Remove default border */
+    height: 10px; /* Set thickness of the bar */
+    background-color: #c3acac; /* Set color of the bar */
+    margin: 20px 0; /* Adjust margin for spacing */
+}
+
+/* Footer styles */
+footer {
+    color: #E2AEAE;
+    text-align: center;
+    padding: 20px 0;
+    clear: both;
+    margin-top: 20px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: center;
+}
+
+.button-row button {
+    padding: 10px 20px; /* Adjust button padding */
+    background-color: #ab7676; /* Button background color */
+    color: #682520; /* Button text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Button border radius */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.button-row button:hover {
+    background-color: #FFB6C1; /* Button background color on hover */
+}
+
+.left-box {
+    width: 500px;
+    height: 600px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.left-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    object-position: 30% center;
+}
+
+
+.right-box {
+    width: 500px;
+    padding: 20px;
+    margin: 0 20px;
+    color: #E2AEAE;
+    border-radius: 10px; /* Adjust border-radius for curved effect */
+    margin: 0 20px;
+    background-color: #783434; /* Adjust the opacity as needed */
+    text-align: center; /* Center-align text */
+
+}
+
+.right-box h2 {
+    font-weight: bold;
+    text-decoration: underline;
+    margin-bottom: 10px; /* Adjust spacing between headings */
+    color: #E2AEAE;
+}
+
+
+.circle-images {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px; /* Adjust spacing between circle images and boxes */
+}
+
+.circle-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px; /* Adjust spacing between circular images */
+    overflow: hidden; /* Ensures image fits within the circle container */
+}
+
+.circle-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the entire container */
+}
+
+.navigation {
+    text-align: center; /* Center-align the navigation */
+    margin-bottom: 20px; /* Adjust spacing below the navigation */
+}
+
+.navigation a {
+    text-decoration: none; /* Remove underline from links */
+    color: #E2AEAE; /* Set link color */
+}
+
+.navigation a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: #FFB6C1; /* Set link color on hover */
+}
+
+.horizontal-circle-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: -250px;
+}
+
+.horizontal-circle-container {
+    width: 25px; /* Adjust width of circle containers */
+    height: 250px; /* Adjust height of circle containers */
+    margin-right: 20px; /* Adjust spacing between circle containers */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.horizontal-circle-image {
+    width: 25px; /* Adjust width of circle images */
+    height: 25px; /* Adjust height of circle images */
+    border-radius: 50%; /* Make circle images circular */
+    overflow: visible; /* Ensure image fits within the circle container */
+}
+
+.horizontal-circle-image img {
+    width: 25px;
+    height: 25px;
+    object-fit: cover; /* Maintain aspect ratio and cover the entire circle container */
+}
