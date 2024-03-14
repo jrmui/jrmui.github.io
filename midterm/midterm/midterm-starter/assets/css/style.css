@@ -112,10 +112,17 @@ footer {
 
 .button-row button:hover {
     background-color: #FFB6C1; /* Button background color on hover */
+    text-decoration: underline;
 }
 
+.button-row button a {
+    color: #682520; /* Change the color to black or any other desired color */
+    text-decoration: none; /* Remove the underline */
+}
+
+
 .left-box {
-    width: 500px;
+    width: 800px;
     height: 600px;
     padding: 20px;
     border-radius: 20px;
