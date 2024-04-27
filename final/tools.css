@@ -1,0 +1,100 @@
+/* Reset styles */
+body {
+    background-color: #e6f7ff; /* Light blue background */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0077cc; /* Dark blue header */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-nav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Center the content horizontally */
+}
+
+.logo-nav-container img {
+    width: 100px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 10px; /* Add some spacing between the logo and header text */
+}
+
+.logo-nav-container h1 {
+    font-family: papyrus, fantasy;
+    font-size: 5rem;
+    margin-bottom: 20px;
+    color: #ff9633;
+    margin: 0; /* Remove default margin */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; /* Remove default margin */
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+h1 {
+    font-family: papyrus, fantasy;
+    font-size: 5rem;
+    margin-bottom: 20px;
+    color: #ff9633;
+}
+
+h2 {
+    font-family: papyrus, fantasy;
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #ff7f50;
+    margin-left: 20px; /* Add some margin to the left */
+}
+
+p {
+    margin-bottom: 20px;
+    color: #333;
+    margin-left: 20px; /* Add some margin to the left */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    width: 200px; /* Set a fixed width */
+    height: 200px; /* Set a fixed height */
+    object-fit: contain; /* Ensure the entire image fits within the container */
+    margin: 10px;
+    transition: transform 0.3s ease-in-out; /* Smooth transition for the "jump" effect */
+}
+
+.image-container img:hover {
+    transform: translateY(-10px); /* Move the image up slightly on hover */
+}
+
+/* Footer styles */
+footer {
+    background-color: #0077cc; /* Dark blue footer */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
